@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Details - MovieTime</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <a href="index.html" class="logo">MovieTime</a>
+        <div class="nav-search">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="upcoming.html">Upcoming</a></li>
+            </ul>
+          </nav>
+          <form class="search-form">
+            <input type="text" id="searchInput" placeholder="Search" />
+            <button id="searchbutton">Search</button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <div id="search-container" style="display: none;">
+        <h2 style="text-align: center">Search Results</h2>
+        <div class="movie-section" id="search-results"></div>
+      </div>
+
+    <main class="movie-details" id="default-movie-view">
+      <div id="movie-info"></div>
+      <div id="trailer"></div>
+      <div id="cast"></div>
+      <div id="providers"></div>
+      <div id="reviews"></div>
+    </main>
+
+    <script src="movie.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

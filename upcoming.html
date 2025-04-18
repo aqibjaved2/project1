@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upcoming Movies - MovieTime</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <a href="index.html" class="logo">MovieTime</a>
+        <div class="nav-search">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="upcoming.html">Upcoming</a></li>
+            </ul>
+          </nav>
+          <form class="search-form">
+            <input type="text" id="searchInput" placeholder="Search" />
+            <button id="searchbutton">Search</button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main class="movie-grid">
+      <section class="hero-upcoming"></section>
+
+      <div id="search-container" style="display: none">
+        <h2>Search Results</h2>
+        <div class="movie-section" id="search-results"></div>
+      </div>
+
+      <div id="default-movies">
+        <h2>Upcoming Movies</h2>
+        <div class="movie-section" id="upcoming-movies"></div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 MovieTime.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
