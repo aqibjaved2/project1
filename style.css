@@ -168,6 +168,7 @@ nav a:hover {
   font-size: 0.9rem;
   font-weight: 600;
   color: #ffffff;
+  text-align: start;
 }
 
 .movie-card:hover .overview {
@@ -267,8 +268,6 @@ footer {
     ),
     url("upcoming-hero.png") no-repeat center center;
   background-size: cover;
-  margin: 0;
-  padding: 0;
 }
 
 .hero-discover {
@@ -281,8 +280,6 @@ footer {
     ),
     url("discover-hero.png") no-repeat center center;
   background-size: cover;
-  margin: 0;
-  padding: 0;
 }
 
 .movie-details {
@@ -390,4 +387,11 @@ footer {
 
 main {
   padding: 0 !important;
+}
+
+.content-wrapper {
+  max-width: 992px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
